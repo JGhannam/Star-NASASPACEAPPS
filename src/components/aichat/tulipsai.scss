@@ -1,0 +1,130 @@
+.ChatContainer {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  justify-content: flex-end; /* Align items at the bottom */
+  height: auto;
+  overflow-y: scroll;
+  width: 30%;
+  max-height: 90vh;
+}
+
+.chat-container {
+  width: 100%;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  height: 90vh;
+  display: flex; /* Add flex to the chat container */
+  flex-direction: column; /* Change flex direction to column */
+}
+
+.chat-container h1 {
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid #ccc;
+  line-height: 1.5;
+}
+
+.message-list {
+  padding: 16px;
+  overflow-y: auto;
+  max-height: 85%;
+}
+
+.message {
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.message.user {
+  background-color: #F5F5DC;
+  align-self: flex-start;
+  color: #000000;
+}
+
+.message.assistant {
+  background-color: #525252;
+  align-self: flex-end;
+}
+
+.message.typing {
+  font-style: italic;
+  color: #ffffff;
+  text-align: right;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-top: 1px dashed #ccc;
+}
+
+.message-input input {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  color: #b4b4b4 !important;
+}
+
+.message-input button {
+  margin-left: 8px;
+  padding: 8px 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.message-input button:hover {
+  background-color: #3f3f3f;
+}
+
+.alert {
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.warning{
+  background-color: rgb(200, 173, 63);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.SpeechToText {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.training{
+  width: 50%;
+  height: 40vh;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background-color: rgb(18, 16, 111);
+  border-radius: 20px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+
+.ButtonForVolume {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}

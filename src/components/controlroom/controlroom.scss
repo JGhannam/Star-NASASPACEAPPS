@@ -1,0 +1,29 @@
+.ControlRoomContainer {
+  width: 400px;
+  height: auto;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.ControlRoomContainer h4 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ControlRoomContainer h3 {
+  border-bottom: 1px dashed #fff;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
