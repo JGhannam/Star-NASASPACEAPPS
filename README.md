@@ -1,4 +1,4 @@
-# tulips
+# Star
 
 Nasa Space Apps hackathon
 
